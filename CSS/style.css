@@ -85,8 +85,6 @@ h2 {
     font-family: var(--secondry-font);
     color: var(--secondry-color);
     line-height: 3rem;
-    font-style: italic;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h4 {
@@ -117,7 +115,7 @@ p {
 
 .main-btn{
     display: inline-block;
-    padding: 0.625rem  1.875rem;
+    padding: 0.575rem;
     line-height: 1.5625rem;
     background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
@@ -133,7 +131,7 @@ p {
 }
 
 .white-btn {
-    padding: 0.625rem  1.875rem;
+    padding: 0.575rem;
     line-height: 25px;
     background-color: var(--white-color);
     border: 0.1875rem solid var(--white-color);
