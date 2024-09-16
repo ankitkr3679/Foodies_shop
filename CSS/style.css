@@ -236,6 +236,10 @@ p {
     text-transform: uppercase;
     font-weight: 3rem;
 }
+.counter-section .col-md-3{
+    flex: 1;
+    text-align: center;
+}
 
 /* about design */
 .about-section{
@@ -299,8 +303,8 @@ p {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
-    padding-bottom: 1rem;
-    border-bottom: 0.625rem solid #eee;
+    /* padding-bottom: 1rem;
+    border-bottom: 0.625rem solid #eee; */
 }
 .explore-food .card span del{
     color:  var(--text-gray);
@@ -401,6 +405,9 @@ p {
     font-size: 1.5rem;
     color: var(--white-color);
     padding: 0 1rem;
+}
+.footer .img-card{
+    padding-bottom: 2rem;
 }
 
 
