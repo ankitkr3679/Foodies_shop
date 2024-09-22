@@ -72,7 +72,7 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 3rem;
     color: var(--secondry-color);
@@ -237,8 +237,11 @@ p {
     font-weight: 3rem;
 }
 .counter-section .col-md-3{
-    flex: 1;
-    text-align: center;
+  flex: 1;
+  text-align: center;
+  padding-top: 2.5rem;
+   
+    
 }
 
 /* about design */
