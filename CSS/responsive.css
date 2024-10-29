@@ -15,7 +15,7 @@
         height: 3.8125rem;
     }
     .navigation-wrap{
-        text-align: center;
+        text-align: left;
         background-color: var(--white-color);
     }
     .navigation-wrap .nav-link{
