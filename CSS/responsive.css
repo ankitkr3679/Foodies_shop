@@ -32,12 +32,9 @@
         padding: 0;
     }
     
-   
-
-
 }
 
-@media (max-width:767px){
+@media (max-width:767px){ 
 
     /* Custom css */
     h1{
@@ -74,12 +71,21 @@
     }
 
     /* footer design */
-    .footer .footer-link,
+    /* .footer .footer-link,
     .footer a i{
         padding: 0.07rem;
+    } */
+    
+    .footer_wrapper{
+        text-align: center;
+        justify-content: center;
+    }  
+    .footer_wrapper .footer_logo img{
+        max-width: 60%;
     }
-
-
+    .footer_wrapper .footer_text p{
+        line-height: 1.875rem;
+    }
 }
 
 @media (max-width:330px){
@@ -88,9 +94,16 @@
     .testimonial-section .carousel-item{
         padding: 13rem 3.125rem;
     }
-    
-   
-
-
+    .footer_wrapper{
+        text-align: center;
+        justify-content: center;
+    }   
+    .footer_wrapper .footer_logo img{
+        max-width: 60%;
+    }
+    .footer_wrapper .footer_text p{
+        line-height: 1.875rem;
+    }
 }
+
 
