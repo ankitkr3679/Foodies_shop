@@ -1,7 +1,5 @@
 @media (max-width: 1024px){
 
-
-
 }
 
 @media (max-width: 991px){
@@ -10,17 +8,76 @@
         width:100;
     }
 
+    .navbar-toggler {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .navbar-toggle-icon {
+        font-size: 28px;
+        color: #333;
+    }
+    
+    /* Offcanvas Styling */
+    #offcanvasNavbar {
+        width: 250px;
+        background-color: #fff;
+        padding-top: 20px;
+    }
+    
+    #offcanvasNavbar .navbar-nav {
+        list-style: none;
+        padding: 0;
+    }
+    
+    #offcanvasNavbar .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+    
+    #offcanvasNavbar .navbar-nav .nav-link {
+        font-size: 18px;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    #offcanvasNavbar .navbar-nav .nav-link:hover {
+        color:var(--primary-color);
+    }
+    
+    /* Main Button Style */
+    .main-btn {
+        background-color: var(--white-color);
+        color:var(--primary-color);
+        border-color: var(--primary-color);
+       
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .main-btn:hover {
+        background-color: var(--primary-color);
+    }
+    
+    /* Logo inside the offcanvas */
+    #navbar-logo {
+        width: 100px; /* Adjust logo size as needed */
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
     /* navbar brand */
-    .navigation-wrap .navbar-brand img{
+    /* .navigation-wrap .navbar-brand img{
         height: 3.8125rem;
     }
     .navigation-wrap{
-        text-align: left;
+        text-align: center;
         background-color: var(--white-color);
     }
     .navigation-wrap .nav-link{
         line-height: 1.875rem;
-    }
+    } */
 
     /* Banner Design */
     .top-banner{
@@ -86,6 +143,7 @@
     .footer_wrapper .footer_text p{
         line-height: 1.875rem;
     }
+    
 }
 
 @media (max-width:330px){
@@ -103,7 +161,7 @@
     }
     .footer_wrapper .footer_text p{
         line-height: 1.875rem;
-    }
+    } 
 }
 
 
