@@ -101,7 +101,6 @@
         font-size: 2rem;
         line-height: 2.0625rem;
     }
-
     /* top banner */
     .top-banner{
         padding: 10.875rem 0 9.375rem; 
@@ -142,9 +141,8 @@
     }
     .footer_wrapper .footer_text p{
         line-height: 1.875rem;
-    }
-    
-}
+    }    
+}  
 
 @media (max-width:330px){
 
