@@ -175,4 +175,7 @@
       font-size: 1.8rem;
       /* line-height: 25px; */
     }
+    .story-section{
+        width: 95%;
+    }
 }
