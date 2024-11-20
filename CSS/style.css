@@ -372,13 +372,13 @@ p {
     font-weight: 900;
 }
 .story-section{
-    width: 100%;
+    width: 98%;
     height: 28.125rem;
-    background: url('../images/bg/bg-2.jpg') no-repeat center;
+    /* background: url('../images/bg/bg-2.jpg') no-repeat center; */
     background-size: cover;
     padding-top: 100px;
     text-align: center;
-    padding-right: 2rem;
+   
 }
 .story-section h2{
     color: var(--primary-color);
