@@ -170,6 +170,9 @@
     .counter-section .col-md-3{
         padding: 0.2rem 0.2rem 0.2rem;
         padding-top: 5rem;
-       
+    }
+    .top-banner h1{
+      font-size: 1.8rem;
+      /* line-height: 25px; */
     }
 }
