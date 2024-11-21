@@ -87,8 +87,7 @@
     /* carousel design */
     .testimonial-section .carousel-item .carousel-caption p{
         padding: 0;
-    }
-    
+    } 
 }
 
 @media (max-width:767px){ 
@@ -147,8 +146,9 @@
         padding-top: 5rem;
        
     }
-   
-     
+    .newsletter  .main-btn{
+        margin-left: 0rem;
+    }  
 }  
 
 @media (max-width:330px){
@@ -175,8 +175,7 @@
       font-size: 1.8rem;
       /* line-height: 25px; */
     }
-    .story-section{
-     
-       
+    .newsletter  .main-btn{
+        margin-left: 0rem;
     }
 }
